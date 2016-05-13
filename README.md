@@ -7,5 +7,11 @@
       虚函数内存布局
      
     内存泄露的检测
+    
+    
+    [kingofstorm@iZ28j5jp3riZ muduo]$ cat /etc/redhat-release
+
+    
+
   
 
