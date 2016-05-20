@@ -17,7 +17,20 @@
                   工厂模式
                   观察者模式
                   
-              
+      Linux开发环境
+            GDB调试技巧
+            VIM的使用
+            TCPDUMP软件
+            管道
+            重定向
+            
+            常用命令
+            grep
+            ls
+            find
+            ps
+            top
+            
               
       数据结构  数组  
                 链表
