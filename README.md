@@ -58,14 +58,27 @@
    
    
    
-   编程语言C/C++
-   数据库 MySQL
-   操作系统  进程线程  虚拟内存 进程调度  磁盘调度 文件
-   计算机网络  常用网络命令  抓包软件   应用层   http https  smtp  ftp  
-                                        传输层   TCP/UDP
-                                        网络层   IP
+      编程语言C/C++
+       数据库 MySQL
+      操作系统  进程线程  虚拟内存 进程调度  磁盘调度 文件
+      计算机网络  常用网络命令  抓包软件   
+                                          应用层   http https  smtp  ftp  
+                                          传输层   TCP/UDP
+                                          网络层   IP
                                         
-   脚本语言
+    脚本语言
+         Python
+   
+   
+    服务器后台开发
+         LAMP环境搭建
+         Apache
+         Nginx
+   Socket网络编程
+      
+   
+   
+   
    
    
    
