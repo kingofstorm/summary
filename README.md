@@ -147,6 +147,46 @@
     [kingofstorm@iZ28j5jp3riZ muduo]$ cat /etc/redhat-release
 
     
+    
+    # # -*- coding:utf8 -*-
+import calendar
+import multiprocessing
+import threading
+import gzip
+import os
+import time
+import datetime
+import numpy
+import netCDF4_utils
+import netCDF4
+from  netCDF4 import  Dataset
+from netCDF4 import  MFDataset
+
+import multiprocessing
+import time
+
+import multiprocessing
+import time
+
+import multiprocessing
+import time
+
+import multiprocessing
+import time
+import multiprocessing
+import time
+
+def work(interval):
+    print ("start time is{0}".format(time.ctime()));
+    time.sleep(interval)
+    print ("end time is {0}".format(time.ctime()));
+
+if __name__=="__main__":
+    t=multiprocessing.Process(target=work,args=(3,))
+    t.daemon=True
+    t.start()
+    t.join()
+    print "end"
 
   
 
