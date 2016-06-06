@@ -147,24 +147,24 @@
     [kingofstorm@iZ28j5jp3riZ muduo]$ cat /etc/redhat-release
 
     
-    # # -*- coding:utf8 -*-
-   import calendar
-   import multiprocessing
-   import threading
-   import time
-   import datetime
+       # # -*- coding:utf8 -*-
+         import calendar
+         import multiprocessing
+         import threading
+         import time
+         import datetime
 
-   def work(interval):
-       print ("start time is{0}".format(time.ctime()));
-      time.sleep(interval)
-      print ("end time is {0}".format(time.ctime()));
+      def work(interval):
+          print ("start time is{0}".format(time.ctime()));
+         time.sleep(interval)
+         print ("end time is {0}".format(time.ctime()));
 
-   if __name__=="__main__":
-       t=multiprocessing.Process(target=work,args=(3,))
-      t.daemon=True
-      t.start()
-      t.join()
-       print "end"
+      if __name__=="__main__":
+          t=multiprocessing.Process(target=work,args=(3,))
+          t.daemon=True
+          t.start()
+          t.join()
+          print "end"
 
   
 
