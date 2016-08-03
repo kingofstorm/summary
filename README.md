@@ -166,5 +166,23 @@
           t.join()
           print "end"
 
-  
+   #include<iostream>
+   #include<vector>
+   #include<string>
+   #include<unordered_map>
+   #include<sstream>
+   #include<algorithm>
+   using namespace std;
+   int main()
+   {
+	   int N,tmp;
+	   cin >> N;
+	   vector<int> num(N);
+	   for (int i = 0; i < N; i++)
+	   {
+		   cin >> num[i];
+	   }
+	   system("pause");
+	   return 0;
+   }
 
